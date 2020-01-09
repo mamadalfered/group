@@ -15,7 +15,7 @@
 #j-matn {
     text-align: center;
     position: relative;
-    top: 10%;
+    top: 7%;
     width: 50%;
 }
 #j-para {
@@ -29,7 +29,7 @@ img {
 #j-aza {
     position: relative;
     padding-top: 50px;
-    top: 10%;
+    top: 5%;
     display: flex;
     flex-direction: row;
 }
@@ -57,7 +57,7 @@ img {
 
 #content{
     position: relative;
-    top: 10%;
+    top: 7%;
     /* left: 20%; */
     display: flex;
     flex-direction: column;
@@ -75,6 +75,7 @@ img {
     flex-direction: row;
     justify-content:space-around;
     }
+
     
 #div21,#div22,#div23,#div24,#div31,#div32,#div33,#div34{
     border:1px white solid;
@@ -124,12 +125,14 @@ img {
     margin-top: 10px;
 }
 .link-page {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     text-decoration: none;
     color: black;
 }
 .link-page1 {
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
@@ -142,4 +145,43 @@ img {
     margin-top: 20px;
     font-size: 20px;
     color: #f5f5f5;
+}
+.page-sahar {
+    background-image: url(../img/tamas.jpg);
+    width: 100%;
+    height: 100vh;
+}
+#kadr-sahar {
+    border: 1px solid rgb(138, 50, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 196, 161);
+    top: 25%;
+    height: 40%;
+    left: 15%;
+    width: 22%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#form-sahar {
+    display: flex;
+    flex-direction: row;
+}
+#matn-sahar {
+    margin: 10px;
+    text-align: center;
+}
+.name-sahar, #s1 {
+    margin: 10px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+#table-matn-sahar {
+    text-align: right;
+}
+#s1 {
+    background-color: rgb(138, 50, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 20px;
 }
